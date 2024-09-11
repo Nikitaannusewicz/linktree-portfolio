@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nikita Annusewicz Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0a2f35;
+            color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+        .profile-container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .profile-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+        }
+        .profile-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 27px; /* Reduced by 10% from default 30px */
+        }
+        p {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 14px;
+            line-height: 1.5;
+            padding-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 21.6px; /* Reduced by 10% from default 24px */
+        }
+        .project-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .project-item {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .project-icon {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            margin-right: 15px;
+            overflow: hidden;
+        }
+        .project-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .project-info h3 {
+            margin: 0 0 5px;
+            font-size: 16px;
+        }
+        .project-info p {
+            margin: 0;
+            font-size: 12px;
+            text-align: left;
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin-top: 32px; /* Changed from 30px to 32px */
+        }
+        .image-grid img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-image">
+            <img src="sunset.png" alt="Profile Image">
+        </div>
+        <h1>Nikita Annusewicz</h1>
+        <p>Lorem ipsum dolor amet, consectetuer adipiscing elit. Condimentum maximus aptent rutrum mauris tempus tempor mollis tellus. Placerat arcu volutpat aliquam odio nisi bibendum in.</p>
+        
+        <h2>Projects</h2>
+        <ul class="project-list">
+            <li class="project-item">
+                <div class="project-icon">
+                    <img src="sunset.png" alt="Lions Estate">
+                </div>
+                <div class="project-info">
+                    <h3>Lions Estate</h3>
+                    <p>Lorem ipsum dolor amet, consectetuer adipiscing elit.</p>
+                </div>
+            </li>
+            <li class="project-item">
+                <div class="project-icon">
+                    <img src="sunset.png" alt="Entrepreneur">
+                </div>
+                <div class="project-info">
+                    <h3>Entrepreneur</h3>
+                    <p>Lorem ipsum dolor amet, consectetuer adipiscing elit.</p>
+                </div>
+            </li>
+            <li class="project-item">
+                <div class="project-icon">
+                    <img src="sunset.png" alt="Software Engineer">
+                </div>
+                <div class="project-info">
+                    <h3>Software Engineer</h3>
+                    <p>Lorem ipsum dolor amet, consectetuer adipiscing elit.</p>
+                </div>
+            </li>
+            <li class="project-item">
+                <div class="project-icon">
+                    <img src="sunset.png" alt="Traveler">
+                </div>
+                <div class="project-info">
+                    <h3>Traveler</h3>
+                    <p>Lorem ipsum dolor amet, consectetuer adipiscing elit.</p>
+                </div>
+            </li>
+        </ul>
+        
+        <div class="image-grid">
+            <img src="sunset.png" alt="City Skyline">
+            <img src="sunset.png" alt="Interior Design">
+            <img src="sunset.png" alt="Skyscrapers">
+            <img src="sunset.png" alt="Palm Trees">
+        </div>
+    </div>
+</body>
+</html>
